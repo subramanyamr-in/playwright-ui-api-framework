@@ -5,6 +5,9 @@
   "description": "Enterprise-grade Playwright TypeScript End-to-End (E2E) Test Automation Framework featuring Page Object Model, custom UI fixtures, Allure reporting, Winston logging, and multi-environment configuration.",
   "private": true,
   "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/e2e",
+    "test:api": "npx playwright test tests/api",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",

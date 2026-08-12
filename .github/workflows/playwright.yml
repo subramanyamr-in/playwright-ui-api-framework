@@ -45,4 +45,3 @@ jobs:
             playwright-report/
             reports/
           retention-days: 30
-
