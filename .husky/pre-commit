@@ -1,3 +1,4 @@
+export PATH="$PATH:/Users/subramanyamr/.nvm/versions/node/v24.18.0/bin"
 npx lint-staged
 npx tsc --noEmit
 

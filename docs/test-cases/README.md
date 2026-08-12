@@ -79,3 +79,8 @@ export class LoginPage {
   }
 }
 ```
+
+Using github mcp crete a repo that meets standards and google ranking.
+title: FrameWright - Playwright UI Automation Framework or (as per your suggestion)
+rest of the things as per your suggestion
+plese let know before you push the code
