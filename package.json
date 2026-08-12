@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "author": "Subramanyam Reddy",
   "description": "Enterprise-grade Playwright TypeScript End-to-End (E2E) Test Automation Framework featuring Page Object Model, custom UI fixtures, Allure reporting, Winston logging, and multi-environment configuration.",
+  "homepage": "https://github.com/subramanyamr-in/playwright-ui-api-framework#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subramanyamr-in/playwright-ui-api-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/subramanyamr-in/playwright-ui-api-framework/issues"
+  },
   "private": true,
   "scripts": {
     "test": "npx playwright test",
