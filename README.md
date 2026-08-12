@@ -1,4 +1,4 @@
-# FrameWright — Enterprise Playwright UI & API Test Automation Framework
+# Playwright UI & API Test Automation Framework
 
 [![Playwright](https://img.shields.io/badge/Playwright-v1.62+-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-v6.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -6,7 +6,7 @@
 [![Allure Report](https://img.shields.io/badge/Allure_Report-v3.10+-ff69b4?style=for-the-badge&logo=qameta-allure&logoColor=white)](https://allurereport.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-**FrameWright** (`playwright-ui-api-framework`) is a high-performance, enterprise-ready **UI and API Test Automation Framework** built on **Microsoft Playwright** and **TypeScript**. Designed for speed, maintainability, and scalability, FrameWright simplifies end-to-end (E2E) testing with dependency-injected fixtures, Page Object Model (POM), modular API wrappers, Winston logging, and Allure reporting.
+**playwright-ui-api-framework** is a high-performance, enterprise-ready **UI and API Test Automation Framework** built on **Microsoft Playwright** and **TypeScript**. Designed for speed, maintainability, and scalability, FrameWright simplifies end-to-end (E2E) testing with dependency-injected fixtures, Page Object Model (POM), modular API wrappers, Winston logging, and Allure reporting.
 
 ---
 
