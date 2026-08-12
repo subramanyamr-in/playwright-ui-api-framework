@@ -34,7 +34,7 @@ jobs:
           ENVIRONMENT: qa
           TEST_USER_EMAIL: ${{ secrets.TEST_USER_EMAIL }}
           TEST_USER_PASSWORD: ${{ secrets.TEST_USER_PASSWORD }}
-        run: npx playwright test
+        run: xvfb-run npx playwright test --headed
 
       - name: Upload Playwright Reports
         uses: actions/upload-artifact@v4
