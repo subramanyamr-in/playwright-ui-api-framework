@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "noEmit": true,
+
+    // Environment Settings
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "types": ["node", "@playwright/test"],
+
+    // Interop and File Controls
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": false,
+
+    // Style Options (Commented out for smooth test velocity)
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Recommended Options
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "paths": {
+      "@actions/*": ["./src/actions/*"],
+      "@asserts/*": ["./src/assertions/*"],
+      "@config/*": ["./src/config/*"],
+      "@constants/*": ["./src/support/constants/*"],
+      "@enums/*": ["./src/support/enums/*"],
+      "@helper/*": ["./src/helper/*"],
+      "@models/*": ["./src/support/types/*"],
+      "@reporting/*": ["./src/reporting/*"],
+      "@support-types/*": ["./src/support/types/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@fixtures/*": ["./src/fixtures/*"],
+      "@locators/*": ["./src/support/locators/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@logger/*": ["./src/utils/*"]
+    }
+  },
+  "include": ["tests/**/*.ts", "playwright.config.ts", "src/**/*.ts", "src/**/*.mjs"],
+  "exclude": ["node_modules", "dist"]
+}
