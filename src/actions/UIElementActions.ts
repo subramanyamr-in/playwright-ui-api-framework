@@ -49,8 +49,15 @@ export class UIElementActions {
         return;
       } catch (error) {
         if (attempt === maxRetries) {
-          Logger.error(`Failed to click after ${maxRetries} attempts: ${error}`);
-          throw error;
+          try {
+            await locator.scrollIntoViewIfNeeded().catch(() => {});
+            await locator.click({ force: true, timeout: 5000 });
+            Logger.info('Force click fallback successful');
+            return;
+          } catch (_fallbackError) {
+            Logger.error(`Failed to click after ${maxRetries} attempts: ${error}`);
+            throw error;
+          }
         }
         Logger.warn(`Click attempt ${attempt} failed, retrying...`);
         // eslint-disable-next-line playwright/no-wait-for-timeout
