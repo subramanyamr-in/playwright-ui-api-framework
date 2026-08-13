@@ -32,7 +32,7 @@ jobs:
         env:
           CI: true
           ENVIRONMENT: qa
-          UI_BASE_URL: https://the-internet.herokuapp.com
+          UI_BASE_URL: https://demo-saas.bugbug.io
           API_BASE_URL: https://jsonplaceholder.typicode.com
           CI_WORKERS: 1
           TEST_USER_EMAIL: ${{ secrets.TEST_USER_EMAIL }}

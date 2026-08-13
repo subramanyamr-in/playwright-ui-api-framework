@@ -1,7 +1,7 @@
 import { test } from '@fixtures/UiFixture.js';
 
-const validEmail = process.env['TEST_USER_EMAIL'] || '';
-const validPassword = process.env['TEST_USER_PASSWORD'] || '';
+const validEmail = process.env['TEST_USER_EMAIL'] || 'reddysubramanyam24@gmail.com';
+const validPassword = process.env['TEST_USER_PASSWORD'] || 'sUbbu#1234';
 
 test.describe('Tickets Dashboard & Details Page E2E Tests', () => {
   test.beforeEach(async ({ loginPage, ticketsPage }) => {
