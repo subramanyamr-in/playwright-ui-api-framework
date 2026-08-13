@@ -7,7 +7,7 @@ export const TicketsPageLocators = {
   NAV_SETTINGS_TEXT: 'Settings',
   USER_AVATAR_TEXT: 'SR',
   USER_PROFILE_TEXT: 'Subramanyam Reddy',
-  HEADER_COLUMNS: 'th, [role="columnheader"]',
+  HEADER_COLUMNS: 'table thead th, th, .mantine-Table-th, [role="columnheader"]',
   TABLE_ROWS: 'tbody tr, [role="row"]',
   SEARCH_INPUT: 'input[placeholder*="Search"]',
   STATUS_SELECT: 'select, [data-mantine-select], input[placeholder*="Status"]',

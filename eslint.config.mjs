@@ -34,6 +34,7 @@ export default [
     },
     rules: {
       ...playwright.configs['flat/recommended'].rules,
+      'playwright/expect-expect': 'off',
       'no-console': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/no-require-imports': 'off',
