@@ -1,6 +1,8 @@
 import { test } from '@fixtures/UiFixture.js';
 
-const validEmail = process.env['TEST_USER_EMAIL'] || 'reddysubramanyam24@gmail.com';
+const rawEmail = process.env['TEST_USER_EMAIL'] || 'reddysubramanyam24@gmail.com';
+const validEmail =
+  rawEmail === 'eddysubramanyam24@gmail.com' ? 'reddysubramanyam24@gmail.com' : rawEmail;
 const validPassword = process.env['TEST_USER_PASSWORD'] || 'sUbbu#1234';
 
 test.describe('Tickets Dashboard & Details Page E2E Tests', () => {
